@@ -1,0 +1,163 @@
+/*头部动画兼容*/
+.header .header-center .title{
+	-moz-animation: anim 1.5s cubic-bezier(0.8,0.2,0.5,1) forwards;
+	-webkit-animation: anim 1.5s cubic-bezier(0.8,0.2,0.5,1) forwards;
+	-o-animation: anim 1.5s cubic-bezier(0.8,0.2,0.5,1) forwards;
+}
+@-moz-keyframes anim{
+    0%{
+	    left:180%;
+	}
+	90%{
+	    left:-3%;
+	}
+	100%{
+	    left:0;
+	}
+}
+@-webkit-keyframes anim{
+    0%{
+	    left:180%;
+	}
+	90%{
+	    left:-3%;
+	}
+	100%{
+	    left:0;
+	}
+}
+@-o-keyframes anim{
+    0%{
+	    left:180%;
+	}
+	90%{
+	    left:-3%;
+	}
+	100%{
+	    left:0;
+	}
+}
+
+
+.header .header-center .title .bor-left{
+	-moz-animation:animLeft 0.33s 2s ease-out forwards;
+	-webkit-animation:animLeft 0.33s 2s ease-out forwards;
+	-o-animation:animLeft 0.33s 2s ease-out forwards;
+}
+@-moz-keyframes animLeft{
+    from{
+	    height:0rem;
+	}
+	to{
+	    height:0.3rem;
+	}
+}
+@-webkit-keyframes animLeft{
+    from{
+	    height:0rem;
+	}
+	to{
+	    height:0.3rem;
+	}
+}
+@-o-keyframes animLeft{
+    from{
+	    height:0rem;
+	}
+	to{
+	    height:0.3rem;
+	}
+}
+
+
+.header .header-center .title .bor-top{
+	-moz-animation:animTop 1s 2.33s ease-out forwards;
+	-webkit-animation:animTop 1s 2.33s ease-out forwards;
+	-o-animation:animTop 1s 2.33s ease-out forwards;
+}
+@-moz-keyframes animTop{
+    from{
+	    width:0;
+	}
+	to{
+	    width:100%;
+	}
+}
+@-webkit-keyframes animTop{
+    from{
+	    width:0;
+	}
+	to{
+	    width:100%;
+	}
+}
+@-o-keyframes animTop{
+    from{
+	    width:0;
+	}
+	to{
+	    width:100%;
+	}
+}
+
+
+.header .header-center .title .bor-right{
+	-moz-animation:animRight 0.33s 2s ease-out forwards; 
+	-webkit-animation:animRight 0.33s 2s ease-out forwards; 
+	-o-animation:animRight 0.33s 2s ease-out forwards; 
+}
+@-moz-keyframes animRight{
+    from{
+	    height:0;
+	}
+	to{
+	    height:0.3rem;
+	}
+}
+@-webkit-keyframes animRight{
+    from{
+	    height:0;
+	}
+	to{
+	    height:0.3rem;
+	}
+}
+@-o-keyframes animRight{
+    from{
+	    height:0;
+	}
+	to{
+	    height:0.3rem;
+	}
+}
+
+
+.header .header-center .title .bor-bottom{
+	-moz-animation:animBottom 1s 2.33s ease-out forwards; 
+	-webkit-animation:animBottom 1s 2.33s ease-out forwards; 
+	-o-animation:animBottom 1s 2.33s ease-out forwards; 
+}
+@-moz-keyframes animBottom{
+    from{
+	    width:0;
+	}
+	to{
+	    width:100%;
+	}
+}
+@-webkit-keyframes animBottom{
+    from{
+	    width:0;
+	}
+	to{
+	    width:100%;
+	}
+}
+@-o-keyframes animBottom{
+    from{
+	    width:0;
+	}
+	to{
+	    width:100%;
+	}
+}
